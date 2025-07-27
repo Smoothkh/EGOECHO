@@ -4,6 +4,7 @@ node_modules/
 # 환경변수
 .env
 .env.*
+!.env.example
 
 # 로그 및 디버그 파일
 npm-debug.log*
@@ -30,3 +31,6 @@ dump/
 # AES 키나 Gemini key 등의 예시 파일
 *.key
 *.pem
+# client
+client/node_modules/
+client/dist/
