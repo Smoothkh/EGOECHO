@@ -4,6 +4,7 @@ node_modules/
 # 환경변수
 .env
 .env.*
+!.env.example
 
 # 로그 및 디버그 파일
 npm-debug.log*
