@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# 환경변수
+.env
+.env.*
+
+# 로그 및 디버그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 운영체제/IDE 관련
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 빌드/출력물
+dist/
+build/
+coverage/
+
+# 미디어 처리 시 임시 파일
+uploads/
+
+# MongoDB 로컬 DB 백업 (옵션)
+dump/
+
+# AES 키나 Gemini key 등의 예시 파일
+*.key
+*.pem
