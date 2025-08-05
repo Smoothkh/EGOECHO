@@ -31,3 +31,6 @@ dump/
 # AES 키나 Gemini key 등의 예시 파일
 *.key
 *.pem
+# client
+client/node_modules/
+client/dist/
